@@ -17,7 +17,7 @@ var twoSum = function(nums, target) {
 };
 
 
-// Solution Accepted ✅
+// Testcases Accepted, but Wrong Answer on submission ⚠️
 
 
 // -----Notes while reviewing solution-----
@@ -95,4 +95,4 @@ console.log(seenMap);
 // };
 
 
-// Revisit for third attempt with map ⚠️
+// Revisit for third attempt ⚠️

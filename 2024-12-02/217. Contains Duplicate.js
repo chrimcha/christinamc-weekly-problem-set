@@ -58,3 +58,4 @@ var containsDuplicate = function(nums) {
 
 // Testcases Accepted, but Wrong Answer on submission
 // Revisit for third attempt ⚠️
+// https://leetcode.com/u/chrimcha/

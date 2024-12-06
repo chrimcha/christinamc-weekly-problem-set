@@ -30,3 +30,4 @@ where E.salary > M.salary;
 
 
 -- Solution Accepted ✅
+-- https://leetcode.com/u/chrimcha/

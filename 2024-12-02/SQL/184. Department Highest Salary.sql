@@ -25,6 +25,7 @@ select D.id as Department, E.name as Employee, E.salary as Salary
 from Department D join Employee E on (E.departmentId = D.id)
 where (E.departmentId, MAX(salary)) and (E.departmentId = D.id) in (select departmentId, MAX(salary) from Employee group by departmentId);
 -- pay more attention to query names and what fields I am trying to search
+-- found MAX salary and grouped but departmentId first, then used this whole query in the IN operator after conditional
 
 
 -----Third Attempt (after viewing solutions again)-----
